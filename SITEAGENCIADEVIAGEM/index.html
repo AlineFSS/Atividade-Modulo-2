@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arruma Malaêê - Agencia de Viagens</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./CSS/style.css"/>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid p-0">
+      <header>
+        <nav class="navbar navbar-expand-lg bg-white">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img class="logo" src="./IMG/logo2.png" alt="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./destino.html">Destino</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./promocoes.html">Promoções</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contato.html">Contato</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Oque Procura?"
+                  aria-label="Search"
+                />
+                <button class="btn btn-close-white novacor" type="submit">
+                  <img class="icnpesquisa" src="./IMG/encontrar.png" alt="" />
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <!-- Fim NavBar -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./IMG/1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./IMG/2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./IMG/3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Próxima</span>
+            </button>
+          </div>
+      </header>
+      <!-- Fim Carousel -->
+      <main class="py-5">
+        <div class="container">
+          <img src="./IMG/1banner.jpg" class="img-fluid" alt="...">
+        </div>
+        <div class="container my-4">
+        <img src="./IMG/2banner.jpg" class="img-fluid" alt="...">
+      </div>
+      </main>
+      <!-- Footer -->
+      <footer class="text-center py-4" > 
+        <h2>Contato:</h2>
+        <div class="container d-flex justify-content-center flex-wrap"> 
+          <span class="m-2"><img class="icone" src="./IMG/envelope.png" alt=""> contatoarrumamalaee@travel.com </span>
+          <span class="m-2"><img class="icone" src="./IMG/instagram.png" class="img-fluid" alt=""> @arrumamalaee </span>
+          <span class="m-2"><img class="icone" src="./IMG/whatsapp.png" alt=""> 1190000-0000</span>
+          <span class="m-2"><img class="icone" src="./IMG/chamada-telefonica.png" alt=""> 0000-0000</span>
+          <span class="m-2"><img class="icone" src="./IMG/marcador.png" alt=""> Rua: Alfa, 456 - 04965-147</span>
+        </div>
+      </footer>
+    </div>
+
+  </body>
+</html>

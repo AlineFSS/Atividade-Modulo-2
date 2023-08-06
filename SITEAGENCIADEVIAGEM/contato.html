@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arruma Malaêê - Agencia Contato</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./CSS/style.css"/>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid p-0">
+      <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-white">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img class="logo" src="./IMG/logo2.png" alt="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./destino.html">Destino</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./promocoes.html">Promoções</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contato.html">Contato</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Oque Procura?"
+                  aria-label="Search"
+                />
+                <button class="btn btn-close-white novacor" type="submit">
+                  <img class="icnpesquisa" src="./IMG/encontrar.png" alt="" />
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <!-- Fim NavBar -->
+      </header>
+      <main class="container py-5">       
+        <h1 class="text-center">Contato</h1>        
+          <div class="alert alert-primary" role="alert">
+            <h4 class="alert-heading">Nos Conte...</h4>
+            <p>qual é o seu sonho ou próximo ponto turistico que gostaria de
+            conhcer e realizaremos roteiro inesquecivel</p>
+            <hr>
+            <p class="mb-0">Nesse espaço também pode nos dar um feedback do nosso atendimento, sugestões
+            <p> Entre em contato preenchendo o formulário a baixo, e teremos o maior prazer em atender ao seu contato.</p>
+            </p>
+          </div>
+          <div class="alert alert-primary" role="alert">
+            <form>
+              <div class="row">
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Nome:</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Nome Completo">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Telefone:</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Email:</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Estado:</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Cidade:</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <label for="inputState" class="form-label">Assunto</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Selecione</option>
+                    <option>Promoções</option>
+                    <option>Cruzeiros</option>
+                    <option>Roteiros Especiais</option>
+                    <option>Informação</option>
+                    <option>Reclamação</option>
+                    <option>Vendas</option>
+                    <option>Sugestão</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row-mb-5 mt-5">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensagem:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+              </div>
+              <div class="row mt-5">
+                <div class="col-12">
+                  <div class=form-check" >
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                      Aceito Receber Promoções
+                      </label>
+                  </div>
+                  <div class="form-check"" >
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    Aceito os Termos
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <button type="submit" class="btn btn-warning w-50">Enviar</button>
+              </div>
+        </form>
+        <!-- Footer -->
+      </main>
+      <!-- Footer -->
+      <footer class="text-center py-4" > 
+        <h2>Contato:</h2>
+        <div class="container d-flex justify-content-center flex-wrap"> 
+          <span class="m-2"><img class="icone" src="./IMG/envelope.png" alt=""> contatoarrumamalaee@travel.com </span>
+          <span class="m-2"><img class="icone" src="./IMG/instagram.png" class="img-fluid" alt=""> @arrumamalaee </span>
+          <span class="m-2"><img class="icone" src="./IMG/whatsapp.png" alt=""> 1190000-0000</span>
+          <span class="m-2"><img class="icone" src="./IMG/chamada-telefonica.png" alt=""> 0000-0000</span>
+          <span class="m-2"><img class="icone" src="./IMG/marcador.png" alt=""> Rua: Alfa, 456 - 04965-147</span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

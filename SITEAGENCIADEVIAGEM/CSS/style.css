@@ -1,0 +1,25 @@
+body {
+  background-color: white;
+}
+
+.logo {
+  max-width: 120px;
+}
+
+.icnpesquisa {
+  max-width: 25px;
+}
+footer {
+  background-color: #75b2bf;
+}
+.icone {
+  max-width: 20px;
+}
+
+.bg-white {
+  background-color: #75b2bf !important;
+ }
+ .nav-item {
+  font-size: 1.3rem;
+
+ }

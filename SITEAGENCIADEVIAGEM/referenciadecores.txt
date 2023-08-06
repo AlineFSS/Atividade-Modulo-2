@@ -1,0 +1,4 @@
+#FFC000 --- Amarelo
+#E65B03 --- Laranja
+#75B2BF --- Azul
+#394A59 --- Cinza
